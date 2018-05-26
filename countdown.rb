@@ -1,4 +1,5 @@
 def new_year(num_of_secs)
+  counter = num_of_secs
   while num_of_secs > 0 
     puts "#{num_of_secs} SECOND(S)!"
     num_of_secs -= 1 
