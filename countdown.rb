@@ -1,8 +1,8 @@
 def new_year(num_of_secs)
   counter = num_of_secs
-  while num_of_secs > 0 
-    puts "#{num_of_secs} SECOND(S)!"
-    num_of_secs -= 1 
+  while counter > 0 
+    puts "#{counter} SECOND(S)!"
+    counter -= 1 
   end
   puts "HAPPY NEW YEAR!"
 end  
